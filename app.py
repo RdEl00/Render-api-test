@@ -7,7 +7,22 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    content = 
+    """
+    Hello Stranger, Shall we test the API
+
+    === (COPY & PASTE THE LINK IN A NEW WINDOW - CHANGE THE VARIABLE'S VALUES) === 
+
+    a. Try with first name only
+    https://test2-rdex.onrender.com/greet?fname=FIRST_NAME
+    b. Try with last name only
+    https://test2-rdex.onrender.com/greet?lname=LAST_NAME
+    c. Try with both first name and last name
+    https://test2-rdex.onrender.com/greet?fname=FIRST_NAME&lname=LAST_NAME
+
+    Awesome! Now you have tested my interactive multi-argument API.
+    """
+    return content
 
 @app.get("/greet")
 def index():
