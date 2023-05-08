@@ -9,18 +9,18 @@ app = Flask(__name__)
 def hello_world():
     
     content =  """
-    Hello Stranger, Shall we test the API
+    Hello Stranger, Shall we test the API\n
 
-    === (COPY & PASTE THE LINK IN A NEW WINDOW - CHANGE THE VARIABLE'S VALUES) === 
-
-    a. Try with first name only
-    https://test2-rdex.onrender.com/greet?fname=FIRST_NAME
-    b. Try with last name only
-    https://test2-rdex.onrender.com/greet?lname=LAST_NAME
-    c. Try with both first name and last name
-    https://test2-rdex.onrender.com/greet?fname=FIRST_NAME&lname=LAST_NAME
-
-    Awesome! Now you have tested my interactive multi-argument API.
+    === (COPY & PASTE THE LINK IN A NEW WINDOW - CHANGE THE VARIABLE'S VALUES)  ===\n 
+    \n
+    a. Try with first name only\n
+    https://test2-rdex.onrender.com/greet?fname=FIRST_NAME\n
+    b. Try with last name only\n
+    https://test2-rdex.onrender.com/greet?lname=LAST_NAME\n
+    c. Try with both first name and last name\n
+    https://test2-rdex.onrender.com/greet?fname=FIRST_NAME&lname=LAST_NAME\n
+    \n
+    Awesome! Now you have tested my interactive multi-argument API.\n
     """
     return content
 
