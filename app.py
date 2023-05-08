@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    content = 
-    """
+    
+    content =  """
     Hello Stranger, Shall we test the API
 
     === (COPY & PASTE THE LINK IN A NEW WINDOW - CHANGE THE VARIABLE'S VALUES) === 
