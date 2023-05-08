@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     
-    content =  """
+    content =  """<xmp>
     Hello Stranger, Shall we test the API\n
 
     === (COPY & PASTE THE LINK IN A NEW WINDOW - CHANGE THE VARIABLE'S VALUES)  ===\n 
@@ -21,7 +21,7 @@ def hello_world():
     https://test2-rdex.onrender.com/greet?fname=FIRST_NAME&lname=LAST_NAME\n
     \n
     Awesome! Now you have tested my interactive multi-argument API.\n
-    """
+    <xmp>"""
     return content
 
 @app.get("/greet")
