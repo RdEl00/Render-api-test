@@ -5,6 +5,10 @@ app = Flask(__name__)
 
 #Define what the app does
 
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
 @app.get("/greet")
 def index():
     """
