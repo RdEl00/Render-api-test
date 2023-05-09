@@ -21,7 +21,7 @@ def hello_world():
     https://test2-rdex.onrender.com/greet?fname=FIRST_NAME&lname=LAST_NAME\n
     \n
     Awesome! Now you have tested my interactive multi-argument API.\n
-    <xmp>"""
+    """
     return content
 
 @app.get("/greet")
